@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
+<!-- fim do icon-->
+<link rel="stylesheet" href="style.css">
+  <title>Portifolio</title>
+  <script src="menu.js" defer></script>
+</head>
+<body>
+  
+  <header>
+    <div class="interface">
+        <div class="logo">
+          <a href="#">
+            <img src="Images/Marlon R Souza.png" alt="logo"> <!-- Foto topo lado esquerdo logo-->
+          </a>
+        </div>
+        <nav class="menu-inicial">
+          <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#formacao">Formação</a></li>
+              <li><a href="#projeto">Projetos</a></li>
+          </ul>
+        </nav>
+        <div class="btn-contato">
+          <a href="#contato">
+              <button>Contato</button> <!-- botão contatoo, lado direito topo da tela.-->
+          </a>
+        </div>
+
+        <div class="btn-menu"
+         id="btn-menu"> <!-- botão da lista lateral-->
+           <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                  <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li> <!--fica entre lado esquerdo, mobile-->
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#projeto">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+        </div> <!-- menu mobile-->
+
+        <div class="overlay-menu-mobile" id="overlay-menu-mobile"></div>
+
+        
+    </div> <!--Interface-->
+  </header>
+
+  <main>
+    <section id="sobre-mim" class="topo-do-site">
+        <div class="interface"></div>
+          <div class="txt-topo-site"> <!-- escrita lado esquerdo do site -->
+            <img src="Images/PORTFÓLIO.jpg" alt="logo">
+              <div class="flex"></div>
+                <h1>Marlon Rodrigues de Souza</h1>
+                <h2> Um Pouco sobre mim</h2>
+                <p>
+                Olá! Prazer, meu nome é Marlon, tenho 32 anos, e estou cursando Analise e Desenvolvimento de sistema [UNINTER]. Nascido em Paranaguá -PR, atualmente resido em Toledo - PR apaixonado por carros, amo dirigir. Apaixonado por tecnologia e inovação.</p>
+                <br>
+                <p> Minha jornada começou quando eu conheci um amigo que trabalha como DEV. Ele me deu muito apoio para que eu entre para essa área, estou aprofundando meu conhecimento em linguagens como JavaScript, CSS, HTML5 e Python. </p>
+                <br>
+                <p> Família sempre foi um pilar importante na minha vida. Sou grato pelo apoio constante da minha companheira e minha filha, que me encorajam a seguir em busca dos meus sonhos e objetivos. </p>
+                <br>
+                <p> Falando um pouco ds meus momentos de lazer, quando não estou estudando ou trabalhando, gosto de fazer um bom churrasco.Assistir televisão e se reunir com os amigos.</p>
+                <br>
+                <p> Estou sempre em busca de novas oportunidades para aprender e crescer, tanto profissional quanto pessoalmente. Meu objetivo é criar soluções que não só atendam às necessidades técnicas, mas que também causem um impacto positivo nas pessoas e na sociedade.</p>
+                <br>
+                
+              <div class="img-topo-site">               
+            </div><!-- Imagem topo site -->
+          </div><!-- flex -->
+        </div>
+    </section> <!--topo do site-->
+
+    <section id="formacao" class="formacao">
+      <div class="interface">
+        <img src="Images/Historico.jpg" alt="logo">
+        <h2 class="titulo" >Formação Academica</h2>
+        <div class="flex">
+          <div class="formacao-box">
+            <i class="bi bi-mortarboard"></i>
+            <h3>Graduação</h3>
+            <p>Curso: Análise e Desenvolvimento de Sistemas </p>
+            <p>Instituição: Uninter</p>
+            <p>Período: Cursando - Previsão de término em Julho 2026.</p>
+
+          </div> <!--Academica box-->
+
+          <div class="formacao-box">
+            <i class="bi bi-book"></i>
+            <h3>Cursos</h3>
+            <p>Curso: Banco de Dados e Sql </p>
+            <p>Instituição: Udemy</p>
+            <p>Período: 58.5 Horas</p>
+          </div> <!--Cursos-->
+
+          <div class="formacao-box">
+            <i class="bi bi-person-workspace"></i>
+            <h3>Experiências</h3>
+            <p>Gerente de açougue muffato 
+             <br>
+             inicio março 2014 até 
+             <br>
+             abril, 2017
+             <br>
+             Na area da tecnologia, esse é meu primeiro projeto desenvolvido.</p>
+          </div> <!--Experiências-->
+
+        </div> <!--Class flex-->
+
+      </div> <!-- Interface Formação-->
+
+    </section>
+
+    <section id="projeto" class="projeto">
+      <div class="interface">
+        <img src="Images/Projeto.jpg" alt="Logo"/>
+        <h2 class="titulo" >Projetos</h2>
+        
+          <div class="flex">
+              <div class="img-port" style="background-image: url(Images/foto\ 1.jpg);">
+                <div class="overlay">projeto 1</div>
+              </div>
+              <div class="img-port" style="background-image: url(Images/foto\ 2.jpg);">
+                <div class="overlay">projeto 2</div>
+              </div>
+              <div class="img-port" style="background-image: url(Images/foto\ 3.jpg);">
+                <div class="overlay">projeto 3</div>
+              </div>
+              <div class="img-port" style="background-image: url(Images/foto\ 4.jpg);">
+                <div class="overlay">projeto 4</div>
+              </div>
+          </div> <!--flex-->
+      </div> <!--Interface-->
+    </section> <!--projeto-->
+
+    <section id="contato" class="Contato">
+      <div class="iterface">
+        <img src="Images/contato.jpg" alt="logo contato">
+        <h2 class="titulo" >Preencha o formulário abaixo:</h2>
+
+        <form action="">
+          <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+          <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+          <input type="text" name="" id="" placeholder="Seu celular:">
+          <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+        </form>   
+      </div><!--interface Contato-->
+    </section>
+  </main>
+
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="logo-footer">
+            <img src="Images/assinatura.png" alt="assinatura">
+          </div><!--logo-->
+          <div class="btn-social">
+            <a href="https://www.instagram.com/marlon.rodriguesdesouza/"><button><i class="bi bi-instagram"></i></button></a>
+            <a href="https://www.linkedin.com/in/marlon-rodrigu%C3%AAs-de-souza-174b4a268/"><button><i class="bi bi-linkedin"></i></button></a>
+          </div> <!--btn social-->
+        </div>
+      </div> <!--Life Footer-->
+
+      <div class="line-footer borda">
+          <p><i class="bi bi-envelope-fill"></i> <a href="mailto:marlonrodriguesads@gmail.com">marlonrodriguesads@gmail.com</a></p>
+          <h1>© 2024 Marlon Rodrigues de Souza RU 4706087 </h1>
+      </div> <!--line-footer-->
+    </div><!--interface -->
+  </footer>
+
+</body>
+</html>
+
+
